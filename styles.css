@@ -1,0 +1,93 @@
+body {
+    width: 400px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #4CAF50;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #4CAF50;
+  }
+  
+  div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #waterChart {
+    margin-top: 20px;
+  }
+  
+  footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  footer a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  footer strong {
+    color: #333;
+  }
+  
+  #copyPixButton {
+    width: auto;
+    padding: 5px 10px;
+    margin-left: 10px;
+    font-size: 12px;
+    background-color: #007bff;
+  }
+  
+  #copyPixButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .fab {
+    margin-right: 5px;
+  }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gole a Gole </title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="lib/chart.min.js"></script>
+  <meta charset="utf-8">
+</head>
+<body>
+  <h1>Gole a Gole!</h1>
+  <div id="settings">
+    <h2>Configurações</h2>
+    <div>
+      <label for="waterGoal">Meta diária (litros):</label>
+      <input type="number" id="waterGoal" min="0.1" step="0.1" value="2.0">
+    </div>
+    <div>
+      <label for="notificationInterval">Intervalo de notificações (minutos):</label>
+      <input type="number" id="notificationInterval" min="1" value="30">
+    </div>
+    <button id="saveSettings">Salvar Configurações</button>
+  </div>
+  <hr>
+  <div id="progress">
+    <h2>Progresso</h2>
+    <p>Água consumida hoje: <span id="consumedWater">0</span> litros</p>
+    <button id="addWater">Adicionar Água</button>
+    <canvas id="waterChart"></canvas>
+  </div>
+  <footer>
+    <p>
+      Desenvolvido por 
+      <a href="https://github.com/Ageursilva" target="_blank">
+        <i class="fab fa-github"></i> Ageu Silva
+      </a>
+    </p>
+    <p>
+      Chave PIX: <strong id="pixKey">8ed12323-9c5b-4f81-9f74-18c3108f57a4</strong>
+      <button id="copyPixButton"><i class="fas fa-copy"></i> Copiar</button>
+    </p>
+  </footer>
+  <script src="popup.js"></script>
+</body>
+</html>
